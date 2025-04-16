@@ -28,5 +28,19 @@ int main(){
         printf ("Esquerda! \n");
         r++;
     } while (r < 8);
+
+    // Movimentação da peça cavalo
+    printf ("----\nMovimentação do Cavalo: \n");
+    int movimentoCavalo = 1;
+
+    while (movimentoCavalo--)
+    {
+        for (int i = 0; i < 2 ; i++)
+        {
+        printf ("Baixo! \n");
+        }
+    
+        printf ("Esquerda! \n");
+    }
     return 0;
 }
